@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="23503ef3-17de-438d-a2e9-a6a2a7a84669" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/core/LocalHost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/core/api/ApiTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/core/base/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/core/cache/RedisCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/core/cache/RedisNameSpaceEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/core/enums/BizErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/core/exception/BizException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/core/logger/LoggerDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/core/monitor/MonitorConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/core/monitor/TMonitorKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/core/serialize/DateDeserializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/core/serialize/DateSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/core/serialize/ProtobufSerializeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/test/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/CachedBeanCopier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/EnumCodeOf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/PropertyUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/RandomUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/ShortDateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/DefaultHttpsClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/HttpUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/HttpsClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/SSLVerifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/TMonitorKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/data/HeaderContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/data/HttpBinaryResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/data/HttpResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/data/PostParameter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/data/RequestBrowserCompatSpec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/data/TujiaHttpGet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/data/TujiaHttpPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/tools/DebugInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/tools/DeflateInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/tools/ForceKeepAliveStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/tools/Interceptors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/tools/RequestCookiesInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/tools/Strategies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/util/StringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/http/util/UrlMonitorKeyUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/json/JsonUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-common/src/main/java/com/tujia/rba/baseinfo/common/util/json/TransferJsonSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/HouseInstanceSourceMappingMd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/RatePlanScopeMd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/RbaBankBranchInfoMd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/RbaBankInfoMd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/RbaHouseInfoMd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/RbaHouseInstanceInstructionMd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/RbaHouseInstanceLogMd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/RbaHouseInstanceMd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/RbaHouseLogMd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/RbaHouseSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/RbaProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/RbaProductLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/RbaRatePlanLogMd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/RbaRatePlanMd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/RbaShopkeeperDutyHistoryMd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/RbaShopkeeperDutyLogMd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/RbaShopkeeperDutyMd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/ShopkeeperHouseMappingMd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/core/APIResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/core/APIResponseList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/core/BaseObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/core/ConstDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/core/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/core/ResultModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/core/ShortDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/core/SqlMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/enums/DeserializeDemoEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/enums/EnumMessageType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/utils/TimeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/vo/AbsPo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/vo/BaseInfoTestVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/vo/HouseAndInstanceInfoSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/vo/HouseInstancePageSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/vo/HouseInstanceSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/vo/HouseLogPageSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/vo/HousePageSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/vo/HouseRoomCountVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/vo/HouseSearchMd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/vo/RbaBankBranchInfoSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/vo/RbaBankInfoSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/vo/RbaCityMd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/vo/ShopkeeperHouseMappingSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/vo/TestJsonData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/vo/TestPojo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/vo/TestVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-model/src/main/java/com/tujia/rba/baseinfo/model/vo/VoWithList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/resources/config-rba-service.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/VelocityUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/core/AbstractController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/core/AbstractPmsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/core/SpringContextUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/core/SystemProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/core/aop/ControllerMonitorInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/core/filter/CustomizedControllerFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/core/filter/DbStatFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/core/filter/GlobalMonitorFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/core/filter/LoginFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/core/filter/PmsApiFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/core/listener/BeforeSpringInitListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/core/listener/PostSpringInitListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/core/util/RequestUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/filter/ConsumerUserInfoFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/filter/ProviderUserInfoFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/BB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/controller/ClusterTaskController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/controller/HouseInstanceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/controller/HouseInstanceInstructionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/controller/HouseInstanceLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/controller/RbaCityCacheController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/controller/ToolController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/service/HouseInstanceInstructionRemoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/service/HouseInstanceLogRemoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/service/HouseInstanceRemoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/service/HouseLogRemoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/service/HouseRemoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/service/HouseSearchRemoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/service/HouseShopkeeperChangeRemoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/service/ProductLogRemoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/service/ProductRemoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/service/RatePlanLogRemoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/service/RatePlanRemoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/service/RbaBankBranchInfoRemoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/service/RbaBankInfoRemoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/service/RbaCityInfoRemoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/service/RbaShopkeeperDutyLogRemoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/service/RbaTestRemoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/java/com/tujia/rba/baseinfo/provider/platform/service/duty/ShopkeeperDutyRemoteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources.betafvt/default.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources.betafvt/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources.betafvt/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources.betat1/default.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources.betat1/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources.betat1/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources.betat2/default.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources.betat2/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources.betat2/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources.dev/default.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources.dev/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources.dev/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources.prod/default.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources.prod/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources.prod/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/ApplicationResources.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/META-INF/app.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/META-INF/dubbo/com.alibaba.dubbo.rpc.Filter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/META-INF/dubbo/com.tujia.rba.framework.dubbo.validation.Validation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/business-exception-message.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/common.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/dubbo/dubbo-consumer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/dubbo/dubbo-provider-task.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/dubbo/dubbo-provider.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/dubbo/dubbo-registry.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/entity.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/generator.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/HouseInstanceLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/HouseInstanceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/HouseInstanceSourceMappingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/HouseSearchMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/RatePlanScopeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/RbaBankBranchInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/RbaBankInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/RbaCityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/RbaHouseInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/RbaHouseInstanceInstructionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/RbaHouseLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/RbaProductLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/RbaProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/RbaRatePlanLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/RbaRatePlanMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/RbaShopkeeperDutyHistoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/RbaShopkeeperDutyLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/RbaShopkeeperDutyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/ShopkeeperHouseMappingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mapper/Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mybatis-config-oracle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/mybatis-slave-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/mybatis/slave.mapper/Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/spring/spring-aop.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/spring/spring-bean.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/spring/spring-datasource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/spring/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/spring/spring-rocketmq-bean.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/spring/spring-task.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/system.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/template/html/email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/template/html/email_dacu_order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/template/html/email_lite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/template/html/email_min.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/template/html/invalid_order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/template/vm/jira_person_mail.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/template/vm/jira_total_mail.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/velocity.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/resources/velocity/velocity.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/WEB-INF/springmvc-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/avatars/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/avatars/avatar1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/avatars/avatar2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/avatars/avatar3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/avatars/avatar4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/avatars/avatar5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/avatars/profile-pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/avatars/user.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/avatars/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/ace-ie.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/ace-rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/ace-skins.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/ace.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/bootstrap-editable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/bootstrap-timepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/chosen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/colorbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/colorpicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/cyrillic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/daterangepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/dropzone.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/font-awesome-ie7.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/fullcalendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/jquery-ui-1.10.3.custom.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/jquery-ui-1.10.3.full.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/jquery.gritter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/css/ui.jqgrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/font/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/images/gallery/image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/images/gallery/image-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/images/gallery/image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/images/gallery/image-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/images/gallery/image-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/images/gallery/image-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/images/gallery/thumb-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/images/gallery/thumb-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/images/gallery/thumb-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/images/gallery/thumb-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/images/gallery/thumb-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/images/gallery/thumb-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/ace-elements.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/ace-extra.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/ace.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/bootbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/bootstrap-colorpicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/bootstrap-tag.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/bootstrap-wysiwyg.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/chosen.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/date-time/bootstrap-datepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/date-time/bootstrap-timepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/date-time/daterangepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/date-time/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/dropzone.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/excanvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/flot/jquery.flot.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/flot/jquery.flot.pie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/flot/jquery.flot.resize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/fuelux/data/fuelux.tree-sampledata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/fuelux/fuelux.spinner.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/fuelux/fuelux.tree.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/fuelux/fuelux.wizard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jqGrid/i18n/grid.locale-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jqGrid/jquery.jqGrid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery-1.10.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery-2.0.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery-ui-1.10.3.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery-ui-1.10.3.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery.autosize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery.colorbox-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery.dataTables.bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery.easy-pie-chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery.gritter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery.hotkeys.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery.inputlimiter.1.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery.knob.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery.maskedinput.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery.mobile.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery.nestable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery.slimscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery.sparkline.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery.ui.touch-punch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/markdown/bootstrap-markdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/markdown/markdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/typeahead-bs2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/x-editable/ace-editable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/assets/js/x-editable/bootstrap-editable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/blank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/calendar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/dropzone.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/error-404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/error-500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/form-elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/form-wizard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/inbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/invoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/jqgrid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/jquery-ui.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/js/common/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/js/common/zepto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/nestable-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/pricing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/timeline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/treeview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/typography.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/widgets.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/ace/wysiwyg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/favicon_big.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/favicon_small.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/healthcheck.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/monitor/tmonitor.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/demo/tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/iot/aa.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/iot/bb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/iot/lock/lockorder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/iot/lock/operateLog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/iot/lock/pwdstatus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/iot/lock/pwdtask.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/iot/lock/status.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/iot/qtablk/qtablacklist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/bg_caption.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/pic_home_slider_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/pic_home_slider_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/pic_home_slider_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/pic_home_slider_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/sprite_arrow_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/sprite_arrow_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/sprite_arrow_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/sprite_nav_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/tujia-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/tujia-01.jpg.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/tujia-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/tujia-02.jpg.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/tujia-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/tujia-03.jpg.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/tujia-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/tujia-04.jpg.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/tujia-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/tujia-05.jpg.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/tujia-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/tujia-06.jpg.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/tujia-07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/tujia-07.jpg.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/tujia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/image/tujiahome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/js/jquery.flexslider-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/pages/navigation/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/css/common/bootstrap-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/css/common/bootstrap-rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/css/common/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/css/common/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/css/common/sb-admin-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/css/common/sb-admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/css/common/ui-loading-mask.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/css/pagination/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/css/pagination/jqpagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/css/pagination/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/css/plugins/bootstrap-datetimepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/css/plugins/fileinput.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/css/plugins/fileinput.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/css/plugins/jquery.gritter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/css/plugins/morris.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/less/spinning.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/scss/_spinning.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/font-awesome/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/img/gritter-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/img/gritter-long.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/img/gritter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/img/ie-spacer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/img/loading-sm.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/common/admin-login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/common/ai-api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/common/bootstrap-datepicker-setting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/common/jquery-ajax-loading-mask.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/common/lib.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/common/require-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/common/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/bootstrap-datetimepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/bootstrap-datetimepicker.zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/clipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/clipboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/highcharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/jquery.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/jquery.jqpagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/jquery.ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/plupload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/require.1.0.8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/require.2.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/require.2.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/require.2.3.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/require.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/lib/underscore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/common/nav/tpl/nav-top.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/lockorder/const.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/lockorder/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/lockorder/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/lockorder/tpl/list-item.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/lockorder/tpl/log-item.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/lockorder/tpl/no-list-item.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/operateLog/const.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/operateLog/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/operateLog/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/operateLog/tpl/list-item.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/operateLog/tpl/log-item.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/operateLog/tpl/no-list-item.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/pwdstatus/const.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/pwdstatus/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/pwdstatus/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/pwdstatus/tpl/list-item.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/pwdstatus/tpl/log-item.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/pwdstatus/tpl/no-list-item.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/pwdtask/const.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/pwdtask/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/pwdtask/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/pwdtask/tpl/list-item.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/pwdtask/tpl/log-item.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/pwdtask/tpl/no-list-item.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/status/const.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/status/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/status/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/status/tpl/list-item.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/status/tpl/log-item.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/pages/iot/lock/status/tpl/no-list-item.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/plugins/fileinput/fileinput.2.3.6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/plugins/fileinput/fileinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/plugins/fileinput/fileinput.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/plugins/fileinput/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/plugins/flot/excanvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/plugins/flot/flot-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/plugins/flot/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/plugins/flot/jquery.flot.pie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/plugins/flot/jquery.flot.resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/plugins/flot/jquery.flot.tooltip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/plugins/gritter/jquery.gritter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/plugins/gritter/jquery.gritter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/plugins/morris/morris-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/plugins/morris/morris.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/plugins/morris/morris.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/static/js/plugins/morris/raphael.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/view/dislpayInfo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/main/webapp/view/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/base/CommonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/base/TestInitialListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/diff/ObjectDiffToolTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/diff/RecurseObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/diff/TestDiffVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/diff/TestSunModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/BaseDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/EntrustShopkeeperServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/HosueLogRemoteServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/HosueRemoteServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/HosueSearchRemoteServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/HosueShopkeeperChangeRemoteServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/HouseInstanceInstructionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/HouseInstanceLogTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/HouseInstanceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/MybatisHanlderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/ProductLogServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/ProductRemoteServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/RatePlanScopeServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/RbaBankInfoServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/RbaCityInfoRemoteServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/RbaRatePlanLogServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/RbaRatePlanServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/TestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/TestJSON.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/TestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/service/TestShopkeeperDutyRemoteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/unit/DataTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/vo/OuterClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/vo/TestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-provider/src/test/java/com/tujia/common/vo/TestEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/VelocityUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/core/task/AbsDataSyncManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/core/task/AbstractTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/core/task/duty/ShopkeeperDutyHistoryGenerateTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/core/task/synccitytask/RbaCityRefeshTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/core/task/syncproducttask/OverBookingProductRefreshTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/core/task/syncrateplantask/RatePlanRefeshTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/BaseDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/HouseInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/HouseInstanceDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/HouseInstanceInstructionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/HouseInstanceLogDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/HouseInstanceSourceMappingDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/HouseLogDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/HouseSearchDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/ProductDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/ProductLogDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/RatePlanScopeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/RbaBankBranchInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/RbaBankInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/RbaCityInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/RbaRatePlanDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/RbaRatePlanLogDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/RbaShopkeeperDutyDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/RbaShopkeeperDutyLogDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/ShopkeeperHouseMappingDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/TestDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/AbsJsonListDeserializeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/AutoEnumTypeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/BaseInfoHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/CheckinInstructionsHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/CommonPoDataHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/DefaultEnumHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/EntrustDetailVoHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/EntrustOperatorVoHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/InstructionBaseInfoHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/InstructionCommunityHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/InstructionTrafficHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/JsonListTypeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/LocationInfoHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/PictureHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/RatePlanBookingRuleHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/RatePlanCancelRuleHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/RatePlanCheckInRuleHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/RatePlanVoHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/RbaRatePlanScopeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/RbaRatePlanScopeListHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/StringListHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/TestJsonDataListHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/handler/VoWithListJsonHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/HouseInfoDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/HouseInstanceDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/HouseInstanceInstructionDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/HouseInstanceLogDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/HouseInstanceSourceMappingDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/HouseLogDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/HouseSearchDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/ProductDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/ProductLogDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/RatePlanScopeDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/RbaBankBranchInfoDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/RbaBankInfoDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/RbaCityInfoDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/RbaRatePlanDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/RbaRatePlanLogDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/RbaShopkeeperDutyDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/RbaShopkeeperDutyLogDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/ShopkeeperHouseMappingDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/impl/TestDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/dao/util/CodeEnumUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/HouseInstanceLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/HouseInstanceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/HouseInstanceSourceMappingMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/HouseSearchMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/RatePlanScopeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/RbaBankBranchInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/RbaBankInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/RbaCityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/RbaHouseInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/RbaHouseInstanceInstructionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/RbaHouseInstanceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/RbaHouseLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/RbaProductLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/RbaProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/RbaRatePlanLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/RbaRatePlanMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/RbaShopkeeperDutyHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/RbaShopkeeperDutyLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/RbaShopkeeperDutyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/ShopkeeperHouseMappingMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/mapper/TestMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/notify/consumer/AccountDiffReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/notify/consumer/OrgDiffReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/notify/producer/HouseInstanceProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/notify/producer/HouseProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/notify/producer/HouseShelvesProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/notify/producer/HouseTransferProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/notify/producer/RbaProductProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/HouseInstanceInstructionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/HouseInstanceLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/HouseInstanceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/HouseInstanceSourceMappingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/HouseLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/HouseSearchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/HouseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/HouseShopkeeperChangeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/ProductLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/RatePlanScopeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/RbaBankBranchInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/RbaBankInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/RbaCityInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/RbaRatePlanLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/RbaRatePlanService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/RbaShopkeeperDutyLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/RbaShopkeeperDutyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/TestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/duty/ShopkeeperDutyHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/duty/ShopkeeperDutyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/HouseInstanceInstructionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/HouseInstanceLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/HouseInstanceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/HouseInstanceSourceMappingServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/HouseLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/HouseSearchServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/HouseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/HouseShopkeeperChangeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/ProductLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/RatePlanScopeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/RbaBankBranchInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/RbaBankInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/RbaCityInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/RbaRatePlanLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/RbaRatePlanServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/RbaShopkeeperDutyLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/TestServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/duty/ShopkeeperDutyHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/platform/service/impl/duty/ShopkeeperDutyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/util/ApplicationContextUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/util/PageHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseinfo-service/src/main/java/com/tujia/rba/baseinfo/service/util/PageInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db-sql/init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../runserver.cmd" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1009351888">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\tujia\repo\repository-tujia" />
+        <option name="mavenHome" value="D:/tujia/apache-maven-3.3.3" />
+        <option name="userSettingsFile" value="D:\tujia\apache-maven-3.3.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-quartz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-quartz" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23503ef3-17de-438d-a2e9-a6a2a7a84669" name="Default Changelist" comment="" />
+      <created>1542272949992</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542272949992</updated>
+      <workItem from="1542272954092" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
